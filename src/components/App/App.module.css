@@ -1,0 +1,7 @@
+.main {
+	margin: 64px auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 1400px;
+	width: calc(1400px - 130px * 2);
+}

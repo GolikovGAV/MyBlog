@@ -1,0 +1,48 @@
+.h1 {
+	margin: 0 0 24px 0;
+	text-align: center;
+	line-height: 68px;
+	font-size: 60px;
+	font-weight: 600;
+}
+.h2 {
+	line-height: 32px;
+	font-size: 24px;
+	font-weight: 400;
+}
+.input {
+	width: 100%;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 8px 14px 8px 46px;
+	border: 1px solid #919eab52;
+	border-radius: 6px;
+}
+.wrapper {
+	margin: 32px 0;
+	position: relative;
+}
+.icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 14px;
+	background-image: url('../../images/ic_search.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.ul {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.li {
+	flex-basis: calc(50% - 12px);
+}
+.nothing {
+	text-align: center;
+	font-size: 24px;
+}
