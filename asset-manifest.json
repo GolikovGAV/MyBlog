@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MyBlog/static/css/main.8e1cb5ed.css",
+    "main.js": "/MyBlog/static/js/main.30beaffd.js",
+    "static/media/ThumbDownAlt.svg": "/MyBlog/static/media/ThumbDownAlt.ff9b990b73d901281b19c378bec0f8f7.svg",
+    "static/media/ThumbUpAlt.svg": "/MyBlog/static/media/ThumbUpAlt.92a9caf64550fb30eb275c2ca8f73074.svg",
+    "static/media/ThumbDownActive.svg": "/MyBlog/static/media/ThumbDownActive.0fd0e26c31b3a3d8bb9f918ed1365bb3.svg",
+    "static/media/ThumbUpActive.svg": "/MyBlog/static/media/ThumbUpActive.ed26fa9f2d104ee7f6d2fd4a607b8d1f.svg",
+    "static/media/ic_search.svg": "/MyBlog/static/media/ic_search.4feef8fca56a466b647b.svg",
+    "index.html": "/MyBlog/index.html",
+    "static/media/arrow.svg": "/MyBlog/static/media/arrow.568e3f08ca072ea75f822588137f0126.svg",
+    "main.8e1cb5ed.css.map": "/MyBlog/static/css/main.8e1cb5ed.css.map",
+    "main.30beaffd.js.map": "/MyBlog/static/js/main.30beaffd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e1cb5ed.css",
+    "static/js/main.30beaffd.js"
+  ]
+}
