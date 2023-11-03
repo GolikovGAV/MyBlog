@@ -7,11 +7,7 @@ import { useAppSelector } from '../../services/hooks';
 export default function MainPage() {
 	const posts = useAppSelector((state) => state.posts.posts);
 
-	const [find, setFind] = useState<boolean>();
-
 	const [inputValue, setInputValue] = useState<string>();
-
-	const inputRef = useRef(null);
 
 	function findPost(text: string) {
 		if (posts?.find((p) => p.title === text)?.id === undefined) {
@@ -34,12 +30,10 @@ export default function MainPage() {
 				className={s.wrapper}
 				onSubmit={(e: React.FormEvent<HTMLFormElement>) => {
 					e.preventDefault();
-					setFind(true);
 				}}
 			>
 				<i className={s.icon} />
 				<input
-					ref={inputRef}
 					onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
 						setInputValue(e.target.value);
 					}}
