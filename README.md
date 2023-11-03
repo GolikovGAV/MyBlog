@@ -1,5 +1,7 @@
-Для запуска проекта npm i + npm run start.
+# Голиков Артем
 
-В проекте используется: React, TypeScript, Redux Toolkit И React Router
+## Проект: My Blog
 
-Ссылка: https://golikovgav.github.io/MyBlog/
+Данное приложение получает данные с https://jsonplaceholder.typicode.com/ и на их основе отображает посты. Реализован посик по полному совпадению заголовка поста, а также возможность оставлять реакции, благодаря подключенному Redux Toolkit'у. 
+
+Ссылка на GitHub Pages: https://golikovgav.github.io/MyBlog/
